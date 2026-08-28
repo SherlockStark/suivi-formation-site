@@ -1,0 +1,9 @@
+# Exports Excel — ne JAMAIS les envoyer sur GitHub
+*.xlsx
+*.xls
+*.csv
+
+# Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
