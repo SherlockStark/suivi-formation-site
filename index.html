@@ -240,8 +240,11 @@ var o=[];var l=Array.isArray(e);for(f=n.s.c;f<=n.e.c;++f)s[f]=ya(f);for(var c=n.
   }
   .role-pill:hover{border-color:var(--amber);}
   .role-pill.active{background:var(--ink);color:var(--on-ink);border-color:var(--ink);}
+  /* colle au bas de la carte : les cartes d une meme ligne ont deja la
+     meme hauteur, mais un contenu plus court laissait le menu flotter
+     a mi-hauteur, et la rangee de menus partait en escalier. */
   .role-select{
-    width:100%;margin-top:2px;background:var(--paper);border:1px solid var(--line);
+    width:100%;margin-top:auto;background:var(--paper);border:1px solid var(--line);
     border-radius:7px;padding:5px 8px;font-size:11.5px;font-family:'Inter',sans-serif;
     color:var(--grey);cursor:pointer;font-weight:600;
   }
